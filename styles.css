@@ -59,7 +59,7 @@ a {
     height: 100px;
   }
   
-  .infoboxes {
+.infoboxes {
     display: flex;
     flex-direction: row;
     text-align: center;
@@ -67,13 +67,13 @@ a {
     align-items:center;
   }
   
-  .box {
+.box {
     border: 3px solid grey;
     border-radius: 12px;
 
   }
 
-  .SRI {
+.SRI {
     display: flex;
     flex-direction: column;
     background-color: #f9faf8;
@@ -81,3 +81,73 @@ a {
     align-items: center;
     gap: 40px;
   }
+
+.quote-section {
+    display: flex;
+    justify-content: center;
+    background-color: #E5E7EB;
+    }
+  
+.quote-box {
+    align-self: center;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    font-size: 24px;
+    color: #1F2937;
+    font-family: "light italic";
+}
+
+.quote-box .name {
+    margin-right:50px;
+    margin-left:auto;
+    margin-top: -15px;;
+}
+
+.button-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+.button-section .blue-box{
+    background-color: #3882F6;
+    align-items: center;
+    color: #F9FAF8;
+    width:75%;
+    border-radius:12px;
+    padding:20px 50px;
+    display: flex;
+    margin: 75px;
+  }
+  
+  .button-section .box-text{
+    font-size: 18px;
+  }
+  
+  .button-section .box-button{
+    margin-right: 40px;;
+    margin-left:auto;
+    width:100px;
+    height:50px;
+    border-radius: 12px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border: 3px solid #F9FAF8;
+  }
+
+  .footer{
+    background-color: #1F2937;
+    text-align: center;
+  }
+  
+  .footer p{
+    color: white;
+    padding:40px;
+    margin: 0;
+    flex: 0 1 0
+  }
+    
+
+   
+
